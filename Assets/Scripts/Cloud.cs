@@ -40,18 +40,23 @@ public class Cloud : MonoBehaviour
             spTrans.localScale = scale;
         }
     }
-    void Update()
-    {
-        if (Input.GetKeyDown(KeyCode.Space))
-        {                                                                                                                                                                       //	j												Restart();								}				}
-            void Restart()
-            {
-                foreach (GameObject sp in spheres)
-                {
-                    Destroy(sp);
-                }
-                Start();
-            }
-        }
-    }
 }
+
+ //Void Update()
+ // {
+  //    if (Input.GetKeyDown(KeyCode.Space))
+ //     {
+  //        Restart();
+ //     }
+ // }
+ //     void Restart()
+ //         {
+ //           foreach (GameObject sp in spheres)
+ //             {
+ //              Destroy(sp);
+  //            }
+ //           Start();
+ //         }
+ //     }
+
+    
